@@ -1,0 +1,151 @@
+body {
+    margin : 0;
+    padding : 0;
+    width:100%;
+    height:100%;
+    background-color: #000;
+    background-image: url('../images/BG_DVDB.png');
+    background-size:100% 75%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+#find {
+    height:;
+    Width: 150px;
+    margin: 10px 0px 0px 15px;
+}
+
+#btn_search {
+    width:100px;
+    background-color: #FFF;
+}
+
+#searchcont {
+    height:50px;
+    background:#111100;
+    color:#000;
+    text-align: left;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    padding-left: 50px;
+    padding-top:15px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+#fetch {
+    width:990px;
+    position: absolute;
+    left:50%;
+    margin-left: -495px;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#container {
+    box-shadow: black 0.2em 0.2em 0.2em;
+    color:#FFF;
+    text-align: left;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right:10px;
+    width:320px;
+    height: 520px;
+    min-height: ;
+    float: left;
+    display:block;
+    background-image: url('../images/BG_Module.png');
+    background-repeat:no-repeat;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#container.weg {
+}
+
+#container a {
+    color: #FFF;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    line-height:30px;
+    font-weight: 400;
+}
+#container a:hover {
+    color: #b0cc3b;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    line-height:30px;
+    font-weight: 400;
+}
+
+img {
+    position:relative;
+    margin-top:;
+    display: ;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0px;
+    padding:15px 0px 0px 15px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #FFF;
+}
+
+h6 {
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding:10px 0px 10px 15px;
+    font-size: 12px;
+    font-weight: 200;
+    color:#FFF;
+    background-color: #001e0a;
+    overflow: hidden;
+}
+
+.jaar, .acteur {
+    float: right;
+    padding-right: 15px;
+    font-weight: 200;
+    color:#009966;
+    font-size:12px;
+}
+
+.uitgeleend {
+    float: right;
+    padding-right: 15px;
+    font-weight: 400;
+    color: #00ff99;
+}
+
+h4 {
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding:5px 0px 5px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#FFF;
+    background-color: #222;
+    display: ;
+    overflow: hidden;
+}
+
+
+
+#container p {
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    line-height:18px;
+    font-weight: 100;
+    Padding:15px 15px 15px 15px;
+    color:#FFF;
+    display: ;
+    overflow: hidden;
+    text-align: justify;
+}

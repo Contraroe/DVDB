@@ -1,0 +1,277 @@
+html, body {
+    margin : 0;
+    padding : 0;
+    width:100%;
+    height:100%;
+    background:url('../images/Archive.jpg') top center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#logincont {
+    width:15%;
+    min-width:300px;
+    Height:70%;
+    min-height:250px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    top:20%;
+    left:23.3%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#updatecont {
+    width:15%;
+    min-width:300px;
+    Height:47.2%;
+    min-height:250px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #003333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#003333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    bottom:8.8%;
+    left:5%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#update {
+    color:#ffffff;
+font-family:courier new;
+    display: block;
+    float: left;
+}
+
+#login {
+    color:#ffffff;
+    font-family:courier new;
+    display: block;
+    float: left;
+}
+#lener, #who, #titel, #genre, #regiseur, #acteur, #jaar, #inhoud {
+    width: 250px;
+    font-family: arial;
+    font-size: 0.8em;
+}
+#lener2, #find,#titel2, #regiseur2, #acteur2, #jaar2, #id2 {
+    width: 250px;
+    font-family: arial;
+    font-size: 0.8em;
+}
+#beeld {
+    width:225px;
+}
+
+#inhoud {
+    max-height:125px;
+    height:125px;
+}
+#genre, #beeld {
+    width: 260px;
+    height:20px;
+}
+
+
+#who {
+    width:40%;
+    height:20%;
+    font-family: unifrakturcook;
+    font-size: 18px;
+    color:#ffffff;
+    display:block;
+    position: absolute;
+    top:10%;
+    right: 7%;
+    text-align: right;
+    text-transform: none;
+    display: none;
+}
+
+
+
+#who h1 {
+    font-size: 3em;
+}
+
+#fetch {
+    width:52%;
+    Height:70%;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+      display:none;
+    position:absolute;
+    top:20%;
+    right:5%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#searchcont {
+    z-index:2;
+    width:15%;
+    min-width:300px;
+    Height:19.5%;
+    min-height:50px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #003333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#003333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    top:20%;
+    left:5%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#search {
+    z-index:2;
+    color:#ffffff;
+    font-family: Courier new;
+    display: block;
+    float: left;
+}
+
+#tabelheader {
+    position: relative;
+    max-height: 100%;
+    height:98%;
+    overflow-y: scroll;
+}
+
+
+
+#headertitel td {
+padding-right: 10;
+padding-left: 10;
+padding-bottom: 30;
+height: 45px;
+}
+
+#content {
+padding-right: 10;
+padding-left: 10;
+
+
+
+
+}
+
+.header {
+    color:#ffffff;
+    font-family:Courier new;
+    font-weight:600;
+    font-size: 1.3em;
+}
+
+.titel {
+    color:#ffffff;
+    font-family:Courier new;
+    font-weight:600;
+    font-size: 0.9em;
+}
+.gengre, .jaar, .regiseur,.acteur, .uitgeleend {
+    color:#cccccc;
+    font-family:Courier new;
+    font-size: 0.8em;
+}
+
+
+
+
+#header {
+    font-family:Courier new;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 90%;
+    Height: 30px;
+    color:#ffffff;
+    font-size:0.9em;
+    font-variant:uppercase;
+    text-align:right;
+    display:none;
+    padding-top:2em;
+    left:5%;
+    vertical-align:center;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -moz-border-radius-bottomleft: 1em;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:300;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+}
+
+
+#header a {
+    font-family:Courier new;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:1em;
+    font-variant:uppercase;
+    text-align:right;
+    font-weight: 900;
+    }
+
+#footer {
+    font-family:Courier new;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 90%;
+    Height: 50px;
+    color:#ffffff;
+    font-size:0.7em;
+    font-variant:uppercase;
+    text-align:center;
+    display:none;
+    padding-top:1em;
+    left:5%;
+    vertical-align:center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    -moz-border-radius-topleft: 1em;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:100;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+
+
+}

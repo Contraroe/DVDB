@@ -1,0 +1,253 @@
+html, body {
+    margin : 0;
+    padding : 0;
+    width:100%;
+    height:100%;
+    background:url('../images/Projector.jpg') top center no-repeat;
+}
+
+#container {
+    width:100%;
+    height:100%;
+}
+
+#searchcont {
+    z-index:2;
+    width:15%;
+    min-width:300px;
+    Height:18%;
+    min-height:150px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    top:20%;
+    left:20%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#search {
+    z-index:2;
+    color:#ffffff;
+    font-family: Courier new;
+    display: block;
+    float: left;
+}
+#find {
+    width: 250px;
+}
+
+#inhoud {
+    max-height:125px;
+    height:125px;
+}
+#genre, #beeld {
+    width: 260px;
+    height:20px;
+}
+
+
+#who {
+    z-index:2;
+    width:50%;
+    height:20%;
+    font-family: unifrakturcook;
+    font-size: 18px;
+    color:#ffffff;
+    display:block;
+    position: absolute;
+    top:10%;
+    right: 7%;
+    text-align: right;
+    display: none;
+    text-shadow:#000000 2px 2px 5px;
+}
+#headersearch {
+    z-index:2;
+    font-family:Courier new;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 90%;
+    Height: 30px;
+    color:#ffffff;
+    font-size:0.9em;
+    font-variant:uppercase;
+    text-align:right;
+    display:none;
+    padding-top:2em;
+    padding-left:2em;
+    left:5%;
+    vertical-align:center;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -moz-border-radius-bottomleft: 1em;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:300;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+}
+
+
+#who h1 {
+    z-index:2;
+    font-size: 3em;
+}
+
+#data h1 {
+
+    font-size: 3em;
+}
+
+#fetch {
+    z-index:2;
+    width:30%;
+    Height:70%;
+    max-height:70%;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+      display:none;
+    position:absolute;
+    top:20%;
+    right:5%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+
+#tabelheader {
+    z-index:2;
+    position: relative;
+    max-height: 100%;
+    height:98%;
+    overflow-y: scroll;
+
+}
+
+
+
+
+#beeld {
+    z-index:1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+#data {
+    z-index:2;
+    padding:1em;
+    width:15%;
+    min-width:300px;
+    height:45%;
+    font-family: Courier new;
+    font-size: 1em;
+    color:#000000;
+    display:block;
+    position: absolute;
+    Bottom:8.5%;
+    left: 5%;
+    text-align: left;
+    display: none;
+    border-radius: 1em;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:100;
+    background: -moz-linear-gradient(top, #ffffff, #ebebeb);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ebebeb));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffffff', endColorstr='#ebebeb');
+}
+
+#header td {
+padding-right: 10;
+padding-left: 10;
+padding-bottom: 30;
+height: 45px;
+}
+
+
+#content {
+padding-right: 10;
+padding-left: 10;
+
+}
+
+#beeld img {
+width:100%;
+height:100%;
+}
+.header {
+    color:#ffffff;
+    font-family:Courier new;
+    font-weight:600;
+    font-size: 1.3em;
+}
+
+.titel {
+    color:#ffffff;
+    font-family:Courier new;
+    font-weight:600;
+    font-size: 0.9em;
+}
+.gengre, .jaar, .regiseur,.acteur, .uitgeleend {
+    color:#cccccc;
+    font-family:Courier new;
+    font-size: 0.8em;
+}
+
+
+
+
+#footer {
+    z-index:2;
+    font-family:Courier new;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 90%;
+    Height: 50px;
+    color:#ffffff;
+    font-size:0.7em;
+    font-variant:uppercase;
+    text-align:center;
+    display:none;
+    padding-top:1em;
+    left:5%;
+    vertical-align:center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    -moz-border-radius-topleft: 1em;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:100;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+
+
+}
+
+#headersearch a {
+    font-family:Courier new;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:1em;
+    font-variant:uppercase;
+    text-align:right;
+    font-weight: 900;
+    }

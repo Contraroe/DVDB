@@ -1,0 +1,154 @@
+body {
+    margin : 0;
+    padding : 0;
+    width:100%;
+    height:100%;
+    background-color: #000;
+    background-image: url('../images/BG_DVDB.png');
+    background-size:100% 75%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+#searchcont {
+    height:50px;
+    background:#111100;
+    color:#000;
+    text-align: left;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    padding-left: 50px;
+    padding-top:15px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+#fetch {
+    width:990px;
+    position: absolute;
+    left:50%;
+    margin-left: -495px;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#product {
+    background-color: #333;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#container {
+    color:#FFF;
+    text-align: left;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right:10px;
+    width:100%;
+    height: 990px;
+    min-height: ;
+    float: left;
+    display:block;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container a {
+    color: #FFF;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    line-height:30px;
+    font-weight: 400;
+}
+#container a:hover {
+    color: #b0cc3b;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    line-height:30px;
+    font-weight: 400;
+}
+
+img {
+    width: 985px;
+    min-height: 645px;
+    position:relative;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.6) 0.2em -0.2em 0.2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0px;
+    padding:15px 0px 0px 15px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+h6 {
+    float: left;
+    font-family: 'Exo', sans-serif;
+    padding:10px 0px 10px 15px;
+    width:400px;
+    font-size: 12px;
+    font-weight: 200;
+    color:#FFF;
+    background-color: #001e0a;
+    overflow: hidden;
+    margin:0;
+    margin-left: 20px;
+}
+
+.jaar, .acteur {
+    float: right;
+    padding-right: 15px;
+    font-weight: 200;
+    color:#009966;
+    font-size:12px;
+}
+
+.uitgeleend {
+    float: right;
+    padding-right: 15px;
+    font-weight: 400;
+    color: #00ff99;
+}
+
+h4 {
+    float: left;
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding:5px 0px 5px 15px;
+    margin-right:5px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#FFF;
+    background-color: #222;
+    overflow: hidden;
+    width:400px;
+    margin-left: 20px;
+}
+
+
+
+#container p {
+    float: left;
+    font-family: 'Exo', sans-serif;
+    font-size: 13px;
+    line-height:25px;
+    font-weight: 100;
+    Padding:15px 15px 15px 15px;
+    color:#FFF;
+    display: ;
+    overflow: hidden;
+    text-align: justify;
+    margin-right:5px;
+    width:390px;
+    margin-left: 20px;
+}

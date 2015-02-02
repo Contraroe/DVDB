@@ -1,0 +1,131 @@
+html, body {
+    margin : 0;
+    padding : 0;
+    width:100%;
+    height:100%;
+}
+
+#container {
+    background:url('../images/BG_GiveMeYourName.jpg') top center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#logincont {
+    width:15%;
+    min-width:300px;
+    Height:24%;
+    min-height:250px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    top:38%;
+    left:20%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+#login {
+    color:#ffffff;
+    font-family: Courier new;
+    display: block;
+    float: left;
+}
+
+
+
+#registercont {
+    width:15%;
+    min-width:300px;
+    Height:24%;
+    min-height:250px;
+    background: #008800;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+      display:block;
+    position:absolute;
+    top:38%;
+    left:40%;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    border-radius: 1em;
+    display: none;
+    color:#fffff;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+#register {
+    color:#ffffff;
+    font-family: Courier new;
+    display: block;
+    float: left;
+}
+#username, #password {
+    width: 250px;
+    font-family: arial;
+    font-size: 0.8em;
+}
+#regname, #regpass {
+    width: 250px;
+    font-family: arial;
+    font-size: 0.8em;
+}
+
+
+#who {
+    width:20%;
+    height:20%;
+    font-family: unifrakturcook;
+    font-size: 18px;
+    color:#ffffff;
+    display:block;
+    position: absolute;
+    top:10%;
+    right: 10%;
+    text-align: right;
+    text-transform: none;
+    display: none;
+}
+
+#who h1 {
+    font-size: 3em;
+}
+
+
+#footer {
+    font-family:Courier new;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 90%;
+    Height: 50px;
+    color:#ffffff;
+    font-size:0.7em;
+    font-variant:uppercase;
+    text-align:center;
+    display:none;
+    padding-top:1em;
+    left:5%;
+    vertical-align:center;
+    box-shadow: black 0.2em 0.2em 0.2em;
+    font-weight:100;
+    background: -moz-linear-gradient(top, #333333, #000000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    -moz-border-radius-topleft: 1em;
+
+}
